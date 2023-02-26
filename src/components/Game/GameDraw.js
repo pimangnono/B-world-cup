@@ -20,7 +20,7 @@ class GameDraw extends Component {
             this.handleClick(id, db);
           }}
         >
-          <img className="img" src={path + img} />
+          <img className="img" src={path + img} alt="pic of boy" />
         </div>
       </FlexBox>
     );
