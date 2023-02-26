@@ -1,0 +1,70 @@
+.game {
+  width: 100%;
+  height: 93vh;
+  position: relative;
+}
+
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 3s;
+}
+.winnerDraw {
+  position: relative;
+}
+.winnerTitle {
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  position: relative;
+  top: 75%;
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 700;
+  background: pink;
+  padding: 15px 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+.winnerName {
+  margin-top: auto;
+  margin-left: auto;
+  font-size: 2.5rem;
+}
+.replay {
+  position: relative;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: auto;
+  background: hotpink;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.img {
+  width: 70%;
+  margin: auto;
+}
+
+.modal.active {
+  display: flex;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .img {
+    width: 50%;
+  }
+}
