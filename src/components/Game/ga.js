@@ -554,7 +554,12 @@ class Game extends Component {
                 </button>
               </span>
 
-              <img className="img" src={path + winner.img} alt="pic of boy"></img>
+              <img
+                className="img"
+                src={path + winner.img}
+                alt="pic of boy"
+              ></img>
+              <div class="addthis_inline_share_toolbox"></div>
             </div>
           )}
         </div>
