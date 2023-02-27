@@ -1,2 +1,2 @@
 User-agent: * Allow:/
-sitemap: https://jonjalvitaminabc.netlify.app/sitemap.xml
+Sitemap: https://jonjalvitaminabc.netlify.app/sitemap.xml
